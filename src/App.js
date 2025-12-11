@@ -1,15 +1,10 @@
 import './App.css';
-import Nav from './Components/Nav/Nav';
-
-import Footer from './Components/Footer/Footer';
-import Home from './Pages/Home';
+import BMWLanding from './Pages/BMWLanding';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Home/>
-      <Footer/>
+      <BMWLanding />
     </div>
   );
 }
